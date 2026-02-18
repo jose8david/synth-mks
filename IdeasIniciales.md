@@ -1,6 +1,9 @@
 ## Dudas y decisiones
-- Hardware base: Teensy 4.1 (~30€)+ o ESP32
+- Hardware base: Teensy 4.1 (~30€) + [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html) o ESP32 + [AMY Library](https://github.com/shorepine/amy) ([Ejemplos](https://shorepine.github.io/amy/tutorial.html))
 	- Ventaja del ESP32: precio
+	- Ventaja del Teensy: más potente, mayor post-procesado, más todo en uno
+- MIDI input: conector MIDI (gasta pines) o USB Host (necesita ser soportado). Cómo de fácil es leer y procesar los valores?
+- Salida e audio: line out con algo tipo PCM5102A?
 ## Link a proyectos interesantes
 
 ### Proyectos completos
