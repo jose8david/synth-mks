@@ -17,6 +17,9 @@ Características remarcables del proyecto:
 	- Salida de audio hacia el ordenador
 	- Alimentación
 - Al utilizar el USB para todo ello, quedan libres todos los pines para poder conectar los potenciómetros y pantalla.
+  
+[Generador de acordes basado en Teensy](https://minichord.com/)
+- Es open source, están colgados hasta los *stl para imprimir las carcasas.
 ### Esquemas por partes
 
 #### Fuente de alimentación
