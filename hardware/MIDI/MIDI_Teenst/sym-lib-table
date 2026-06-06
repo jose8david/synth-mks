@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/teensy.kicad_sym")(options "")(descr ""))
+  (lib (name "PCM5102")(type "KiCad")(uri "${KIPRJMOD}/PCM5102.kicad_sym")(options "")(descr ""))
+  (lib (name "Display")(type "KiCad")(uri "${KICAD_MIDI}/Display.kicad_sym")(options "")(descr ""))
+)

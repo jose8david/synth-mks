@@ -1,0 +1,234 @@
+(footprint "MultiDIN5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "standard DIN connector, 5 pins, midi")
+	(tags "Universal DIN 5-pins connector midi")
+	(property "Reference" "REF**"
+		(at 0 4.75 0)
+		(layer "F.SilkS")
+		(uuid "907382e2-4be6-4e5a-87cd-85f84d81b2e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MultiDIN5"
+		(at 7.49 -4.27 180)
+		(layer "F.Fab")
+		(uuid "18571462-924a-41ea-b7c4-121dbb5288ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5777dfcf-71c1-471e-ba65-6a08e7b6c668")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "298e76f7-77f0-42bf-992b-42dcfbaa1458")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 3.39)
+		(end -2.5 -12.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37c2cc03-fcfb-4582-964e-c18b370a1c9a")
+	)
+	(fp_line
+		(start 1.46 3.39)
+		(end -2.5 3.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef53ded9-7691-40f9-83e5-baa1f7a18141")
+	)
+	(fp_line
+		(start 11.44 3.39)
+		(end 3.57 3.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abcd79c9-6abb-41c2-b5b6-73534e5ccd79")
+	)
+	(fp_line
+		(start 17.5 -12.54)
+		(end -2.5 -12.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fcb0b72-9ec7-465c-a2a2-e62652427b61")
+	)
+	(fp_line
+		(start 17.5 3.39)
+		(end 13.54 3.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc7d4706-ce7f-43bb-af7d-3aac6e0f3328")
+	)
+	(fp_line
+		(start 17.5 3.39)
+		(end 17.5 -12.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d3c0607-d62f-40f5-92e2-3bddd877c9e5")
+	)
+	(fp_line
+		(start -2.75 -12.8)
+		(end -2.75 3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ede76a6-94af-4e2e-b243-ac471143b8cc")
+	)
+	(fp_line
+		(start 17.75 -12.8)
+		(end -2.75 -12.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "521b0fba-2348-49be-aa6d-647f31d6aa47")
+	)
+	(fp_line
+		(start 17.75 3.9)
+		(end -2.75 3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "800a9c8b-a558-4d69-86dc-da0013b8b624")
+	)
+	(fp_line
+		(start 17.75 3.9)
+		(end 17.75 -12.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9eaadc60-46ac-42d7-96a6-e3031d63223d")
+	)
+	(pad "" thru_hole circle
+		(at 2.5 -10)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46af327b-010f-4201-b13c-6bda53cd53da")
+	)
+	(pad "" thru_hole circle
+		(at 12.5 -10)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f060d3b-f68b-4e12-96da-8034dfa80004")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72b66ea4-6942-4d7d-a38d-af0fef6f9806")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "efb7fa4e-38ee-46c0-8b6c-632c0bb22bf1")
+	)
+	(pad "3" thru_hole circle
+		(at 15 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8815b63d-adfb-491c-b6f3-beab83e95b60")
+	)
+	(pad "4" thru_hole circle
+		(at 2.5 2.5)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5f70a9e-c551-47d8-a0fd-b2ecae513839")
+	)
+	(pad "5" thru_hole circle
+		(at 12.5 2.5)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aad51ad0-e6bc-42ed-85c3-04ae576234f3")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Connectors.3dshapes/SDS-50J.wrl"
+		(offset
+			(xyz 7.365999889 12.44599981 0)
+		)
+		(scale
+			(xyz 0.39 0.39 0.39)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+	(model "${KICAD_MIDI}/midi-connector.step"
+		(offset
+			(xyz 7.5 12 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

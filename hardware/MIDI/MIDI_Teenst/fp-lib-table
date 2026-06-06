@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Teenst")(type "KiCad")(uri "${KIPRJMOD}/Teenst.pretty")(options "")(descr ""))
+  (lib (name "PCM5102")(type "KiCad")(uri "${KIPRJMOD}/PCM5102.pretty")(options "")(descr ""))
+  (lib (name "DIN5")(type "KiCad")(uri "${KICAD_MIDI}/DIN5.pretty")(options "")(descr ""))
+  (lib (name "Display")(type "KiCad")(uri "${KICAD_MIDI}/Display.pretty")(options "")(descr ""))
+)
